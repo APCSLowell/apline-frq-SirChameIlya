@@ -8,7 +8,7 @@ public class APLine
     c = numC;
   }
   public double getSlope(){
-    return -1 * (double (a) / double (b));
+    return -1 * ((double) a / b);
   }
   public boolean isOnline(int x, int y){
     return ((a*x + b*y + c) == 0));
